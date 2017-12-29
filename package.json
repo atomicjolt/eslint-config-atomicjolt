@@ -1,0 +1,18 @@
+{
+  "name": "eslint-config-atomicjolt",
+  "version": "1.0.0",
+  "description": "The eslint rules for Atomic Jolt",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "Atomic Jolt",
+  "license": "ISC",
+  "dependencies": {},
+  "peerDependencies": {
+    "eslint": "^4.14.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.4.0"
+  }
+}
