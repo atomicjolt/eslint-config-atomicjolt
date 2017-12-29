@@ -19,9 +19,7 @@ module.exports = {
 
     // this option sets a specific tab width for your code
     // https://eslint.org/docs/rules/indent
-    indent: ['error', 2, {
-      ignoredNodes: ['JSXElement', 'JSXElement *']
-    }],
+    indent: ['error', 2],
 
     // disallow mixed 'LF' and 'CRLF' as linebreaks
     // https://eslint.org/docs/rules/linebreak-style
