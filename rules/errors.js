@@ -9,7 +9,7 @@ module.exports = {
     'getter-return': ['error', { allowImplicit: true }],
 
     // disallow use of console
-    'no-console': 'warm',
+    'no-console': 'warn',
 
     // disallow use of constant expressions in conditions
     'no-constant-condition': 'warn',

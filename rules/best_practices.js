@@ -59,7 +59,7 @@ module.exports = {
     'no-lone-blocks': 'error',
 
     // disallow use of multiple spaces
-    'no-multi-spaces': ['error', {
+    'no-multi-spaces': ['off', {
       ignoreEOLComments: false,
     }],
 
