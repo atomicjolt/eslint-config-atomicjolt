@@ -77,6 +77,7 @@ module.exports = {
         'res', // for Express responses
         'response', // for Express responses
         '$scope', // for Angular 1 scopes
+        'state' // react setState,
       ]
     }],
 
@@ -90,7 +91,7 @@ module.exports = {
     'no-throw-literal': 'error',
 
     // disallow usage of expressions in statement position
-    'no-unused-expressions': ['error', {
+    'no-unused-expressions': ['off', {
       allowShortCircuit: false,
       allowTernary: false,
       allowTaggedTemplates: false,

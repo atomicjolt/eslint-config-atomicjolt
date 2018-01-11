@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-atomicjolt",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "The eslint rules for Atomic Jolt",
   "main": "index.js",
   "scripts": {
