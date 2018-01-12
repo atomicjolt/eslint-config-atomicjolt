@@ -20,7 +20,7 @@ module.exports = {
     // this option sets a specific tab width for your code
     // https://eslint.org/docs/rules/indent
     indent: ['error', 2, {
-      SwitchCase: 2
+      SwitchCase: 1
     }],
 
     // disallow mixed 'LF' and 'CRLF' as linebreaks
