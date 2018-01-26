@@ -57,7 +57,8 @@ module.exports = {
 
     // require that mouseover/out come with focus/blur, for keyboard-only users
     // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/mouse-events-have-key-events.md
-    'jsx-a11y/mouse-events-have-key-events': 'error',
+    // disabled in favor of using tabIndex to handle key events
+    'jsx-a11y/mouse-events-have-key-events': 'off',
 
     // Prevent use of `accessKey`
     // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/no-access-key.md
